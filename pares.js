@@ -30,11 +30,9 @@ function pares2(vetor) {
     return vetor;
 }
 
-let vetor = [];
-// let vetor = [1, 3, 4, 0, 80, 33, 23, 90]
-// console.log (pares (vetor));
-// console.log (pares ([]));
-// console.log (pares2 (vetor));
+console.log (pares ([1, 3, 4, 0, 80, 33, 23, 90]));
+console.log (pares ([]));
+console.log (pares2 ([1, 3, 4, 0, 80, 33, 23, 90]));
 console.log (pares2 ([]));
 console.log (pares2 (null));
 console.log (pares2 ([1 , 2, 0, `a`, `b`]));
